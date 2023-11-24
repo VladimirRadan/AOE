@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="AOE Test" parallel="methods">
+    <listeners>
+        <listener class-name="listeners.TestListener"></listener>
+    </listeners>
+    <test name="TestCases test">
+        <classes>
+            <class name="tests.VacanciesTest"></class>
+        </classes>
+    </test>
+</suite>
